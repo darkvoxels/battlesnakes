@@ -19,8 +19,8 @@ mov sp, ax
 ;mov ax, 0x0000
 ;mov es, ax
 cli							;Disable Interrupts
-mov [es:4 * 9], word get_keys				; Update the IVT Location of our Interrupt Service Routine
-mov [es:4 * 9 + 2], cs					; Specify what segment our ISR is in
+mov [es:4 * 9], word get_keys				;Update the IVT with the location of our Interrupt Service Routine (get_keys)
+mov [es:4 * 9 + 2], cs					;Specify what segment our ISR is in
 sti							;Enable Interrupts
 
 ;POINT ES TO VIDEO MEMORY
