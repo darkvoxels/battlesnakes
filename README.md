@@ -6,7 +6,7 @@ Shout out to XlogicX for inspiration for this project and some coding techniques
 <br>
 
 <h2>Gameplay</h2><br>
-2 snakes start out by moving away from their inital wall, they create a tail as they move, if they touch their own wall the tail will solidify and become a wall, if they touch their own tail they die, if they touch the other players wall they die, and if they go out-of-bounds they die. Kill the other player by trapping in your walls or cutting the tail!
+2 snakes start out by moving away from their inital wall, they create a tail as they move, if they touch their own wall the tail will solidify and become a wall, if they touch their own tail they die, if they touch the other players wall they die, and if they go out-of-bounds they die. Kill the other player by trapping them in your walls or cutting the tail!
 
 ![image of gameplay](https://github.com/darkvoxels/battlesnakes/blob/master/BattleSnakes.png)
 
