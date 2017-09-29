@@ -4,8 +4,11 @@ BattleSnakes is a 512 Byte 2 Player Bootsector Game - Written in NASM x86 Assemb
 <br>
 Shout out to XlogicX for inspiration for this project and some coding techniques (https://github.com/XlogicX/tronsolitare)
 <br>
+
 <h2>Gameplay</h2><br>
 2 snakes start out by moving away from their inital wall, they create a tail as they move, if they touch their own wall the tail will solidify and become a wall, if they touch their own tail they die, if they touch the other players wall they die, and if they go out-of-bounds they die. Kill the other player by trapping in your walls or cutting the tail!
+
+![image of gameplay](https://github.com/darkvoxels/battlesnakes/blob/master/BattleSnakes.png)
 
 <h2>Assembly and Execution</h2><br>
 To Assemble Sourcecode:
